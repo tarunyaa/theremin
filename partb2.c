@@ -51,7 +51,6 @@ ISR(TIMER0_COMPA_vect) // Input capture interrupt
 
 int main(void)
 {
-   UART_init();
    Initialize();
    while(1)
    {
